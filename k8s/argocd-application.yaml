@@ -11,7 +11,7 @@ spec:
     targetRevision: main
     path: k8s
   destination:
-    server:
+    server: https://8A71B85F6CCEB6A505472E04D433BD1E.gr7.us-east-1.eks.amazonaws.com
     namespace: default
   syncPolicy:
     automated:
